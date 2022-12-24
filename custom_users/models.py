@@ -6,4 +6,4 @@ class CustomUser(AbstractUser):
     bio = models.TextField(blank=True, null=True)
 
     def __str__(self):
-        return self.email
+        return self.username

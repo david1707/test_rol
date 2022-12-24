@@ -33,6 +33,7 @@ INSTALLED_APPS = [
     "rest_framework",
     # Local
     "custom_users.apps.CustomUsersConfig",
+    "lfg.apps.LfgConfig",
 ]
 
 MIDDLEWARE = [
